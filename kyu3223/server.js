@@ -25,4 +25,4 @@ http.createServer((request, response) => {
       response.end('주소가 없습니다');
     }
   }
-}).listen(8080);
+}).listen(process.env.PORT || 8080);
