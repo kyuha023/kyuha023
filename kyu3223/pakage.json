@@ -2,6 +2,9 @@
   "name": "tf-js",
   "version": "1.0.0",
   "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  }
   "license": "MIT",
   "dependencies": {
     "@tensorflow-models/mobilenet": "^0.2.2",
